@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS&HTML</title>
+</head>
+<body>
+    <table border="1px">
+    <script>
+        var n=parseInt(prompt("enter number"));
+        var a=parseInt(prompt("enter starting"));
+        var b=parseInt(prompt("enter end"));
+//     for(var i=1;i<=6;i++){
+
+   
+//  document.write("<h"+i+" align='center'>Today is a Great day</h"+i+">"); 
+//     }
+
+//     for(var i=6;i>=1;i--){
+
+   
+// document.write("<h"+i+" align='center'>Today is a Great day</h"+i+">"); 
+//    }
+
+
+   for(var i=a;i<=b;i++){
+    document.write("<tr>");
+        document.write("<td>"+i+"</td>"); 
+        document.write("<td>*</td>");
+        document.write("<td>"+n+"</td>");
+        document.write("<td>=</td>");
+        document.write("<td>"+i*n+"</td>"); 
+        document.write("</tr>"); 
+   
+
+   }
+    
+
+</script>
+</table>
+</body>
+</html>
